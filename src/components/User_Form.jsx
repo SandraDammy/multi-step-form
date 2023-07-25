@@ -36,9 +36,9 @@ const User_Form = () => {
       case 4:
         return <Finishing_up onNext={handleEventNext} onPrevious={handleEventPrevious}/>;
       case 5:
-        return <Success onNext={handleEventNext} onPrevious={handleEventPrevious}/>;
+        return <Success onPrevious={handleEventPrevious}/>;
       default:
-        return null;
+        return <Personal_info onNext={handleEventNext} />;
     }
   };
 
@@ -50,13 +50,7 @@ const User_Form = () => {
         </div>
         <div className="form-body">
           <div className="form-input">
-
             {renderStep()}
-            {/* <Personal_info /> */}
-            {/* <Select_your_plan/> */}
-            {/* <Pick_add_ons/> */}
-            {/* <Finishing_up/> */}
-            {/* <Success/> */}
           </div>
           <div className="form-footer">
             <div className="btn-container">

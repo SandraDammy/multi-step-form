@@ -55,7 +55,7 @@
   font-weight: 500;
   cursor: pointer;
 }
-.btnBlue .btnBlue:hover {
+.btnBlue:hover {
   background-color: #ffffff;
   border: 2px solid #022959;
   color: #022959;
@@ -64,7 +64,6 @@
 .btnOutline {
   display: flex;
   color: #9699aa;
-  border: none;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 5px;
@@ -73,10 +72,10 @@
   font-weight: 500;
   cursor: pointer;
 }
-.btnOutline :hover {
+.btnOutline:hover {
   background-color: #ffffff;
-  border: 2px solid #9699aa;
-  color: #9699aa;
+  border: 2px solid #022959;
+  color: #022959;
 }
 
 .step-container {
