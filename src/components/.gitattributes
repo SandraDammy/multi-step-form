@@ -1,2 +1,5 @@
 # Set the line ending style for package-lock.json to LF (Unix-style).
 package-lock.json text eol=lf
+
+# Set the line ending style for styles.css to LF (Unix-style).
+src/components/styles/styles.css text eol=lf

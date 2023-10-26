@@ -46,7 +46,7 @@ const User_Form = () => {
     <div className="container">
       <div className="container-body">
         <div className="banner">
-          <Sidebar />
+          <Sidebar step={step}/>
         </div>
         <div className="form-body">
           <div className="form-input">
