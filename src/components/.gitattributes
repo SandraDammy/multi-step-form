@@ -1,0 +1,2 @@
+# Set the line ending style for package-lock.json to LF (Unix-style).
+package-lock.json text eol=lf
