@@ -38,7 +38,7 @@ const User_Form = () => {
       case 5:
         return <Success onPrevious={handleEventPrevious}/>;
       default:
-        return <Personal_info onNext={handleEventNext} />;
+        return <Personal_info/>;
     }
   };
 

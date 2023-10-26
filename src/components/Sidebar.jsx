@@ -3,7 +3,7 @@ import "./styles/styles.css";
 
 const Sidebar = () => {
   return (
-    <div className="step-container">
+    <div className="step-container" >
       <div className="step-body">
         <div className="step-text">
           <div className="step-nos">
